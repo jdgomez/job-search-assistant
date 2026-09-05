@@ -1,0 +1,24 @@
+Senior Backend Engineer — Remote (EU timezones)
+
+We're looking for a Senior Backend Engineer to join our platform team.
+You'll own backend services that process millions of events per day and
+work closely with a fully remote, async-first team spread across multiple
+timezones.
+
+Requirements:
+- 8+ years of professional backend development experience
+- Strong experience with Go or a similarly typed, compiled language
+- Experience designing and operating CI/CD pipelines
+- Comfortable working async in a distributed, remote team
+- Experience migrating monolithic systems to microservices
+
+Nice to have:
+- Experience with Elixir or other BEAM languages
+- Experience with Kubernetes in production
+- Prior experience in fintech or regulated industries
+
+What you'll do:
+- Design and build backend services and internal APIs
+- Improve deployment and CI/CD reliability and speed
+- Participate in async code review and architecture discussions
+- Mentor other engineers on the team

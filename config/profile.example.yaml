@@ -1,0 +1,45 @@
+# Template candidate profile.
+#
+# Copy this file to config/profile.yaml and fill in your own data.
+# config/profile.yaml is gitignored — it is meant to hold your real,
+# personal information and should not be committed.
+
+name: Jane Doe
+headline: Senior Backend Engineer
+
+summary: >
+  Backend engineer with 13+ years of experience building and operating
+  production systems, with a focus on CI/CD automation and microservices.
+
+experience:
+  - role: Senior Backend Engineer
+    company: Example Corp
+    years: "2019-2026"
+    description: >
+      Led migration from a monolith to microservices; reduced CI/CD
+      pipeline time from 4h to 10min.
+  - role: Backend Engineer
+    company: Another Co
+    years: "2013-2019"
+    description: >
+      Built and maintained internal APIs and background job systems for
+      a remote, async-first team.
+
+skills:
+  - Go
+  - Python
+  - PostgreSQL
+  - Docker
+  - Kubernetes
+
+achievements:
+  - "Reduced CI/CD pipeline time from 4h to 10min"
+  - "Led migration of 6 services from monolith to microservices"
+
+preferences:
+  roles:
+    - Senior Backend Engineer
+    - Staff Engineer
+  remote: true
+  locations:
+    - Remote (EU timezones)

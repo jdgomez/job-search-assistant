@@ -1,0 +1,41 @@
+schema: spec-driven
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+# Add your tech stack, conventions, style guides, domain knowledge, etc.
+context: |
+  job-assistant: Go CLI that analyzes job posting vs. candidate fit using the
+  Anthropic Messages API (claude-sonnet-4-6).
+  Stack: Go stdlib only + gopkg.in/yaml.v3 (no Anthropic SDK, no web framework).
+  Package layout: internal/anthropic (API client), internal/profile (YAML
+  profile loader), internal/analyzer (prompt + orchestration), cmd/ + main.go
+  (CLI/flags).
+  Structured LLM output is obtained via forced tool use (tool_choice), not by
+  prompting for JSON text - see design.md in add-job-fit-analyzer for rationale.
+  API-dependent code must be testable against httptest.Server, not real network
+  calls.
+  This is a portfolio/job-search project: also intended as material for a blog
+  post on jdgomez.dev, so README quality and documented "known limitations"
+  matter as much as functionality.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing
